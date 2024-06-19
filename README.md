@@ -119,3 +119,10 @@ napari
 3. ![#FFFF33](https://placehold.co/15x15/FFFF33/FFFF33.png) **Clear export data**: Click the “Clear” button to clear the export data file.
 4. ![#f03c15](https://placehold.co/15x15/33FF33/33FF33.png) **Export Results**: Click the “Export Results” button to open a file dialogue for saving the assessments results. Note that the plugin supports two export result file types, *.csv and *.json that you can choose between.
 
+----
+
+## Changelog
+
+### 0.1.3
+- Fixed transposition of MLI line number and SD
+- Added additional test

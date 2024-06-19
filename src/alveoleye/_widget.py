@@ -13,10 +13,10 @@ import alveoleye._gui_creator as gui_creator
 class WidgetMain(QWidget):
     def __init__(self, napari_viewer):
         super().__init__()
-        self.assessments_group_box = None
-        self.postprocessing_group_box = None
-        self.processing_group_box = None
-        self.export_group_box = None
+        self.assessments_group_box: AssessmentsActionBox | None = None
+        self.postprocessing_group_box: PostprocessingActionBox | None = None
+        self.processing_group_box: ProcessingActionBox | None = None
+        self.export_group_box: ExportActionBox | None = None
 
         self.napari_viewer = napari_viewer
 
